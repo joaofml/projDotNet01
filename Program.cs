@@ -25,6 +25,7 @@ namespace meuPrimeiroProjetoDotNet
               Console.WriteLine("3()");
               break;
             case "4":
+
               Console.WriteLine("4()");
               break;
             default:
@@ -33,7 +34,9 @@ namespace meuPrimeiroProjetoDotNet
         }
         catch (Exception)
         {
+          // Console.Clear();
           Console.WriteLine("Opção Invalida");
+          Console.Beep(400, 300);
         }
         userOption = menu();
       }
@@ -44,6 +47,7 @@ namespace meuPrimeiroProjetoDotNet
 
     private static string menu()
     {
+
       Console.WriteLine("1 - Cadastrar aluno");
       Console.WriteLine("2 - Pesquisar aluno");
       Console.WriteLine("3 - Atualizar aluno");
