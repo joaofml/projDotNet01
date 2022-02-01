@@ -1,9 +1,4 @@
-# Projeto para praticar .NET C#
+## Projeto dotnet 6.0
 
-## Programa simples apenas com proposito de praticar conceitos de POO e utilizar as ferramentas basicas da linguagem C#
-
-- Para rodar, basta possuir o .NET 6 instalado, e inserir o comando no shell:
-
-- dotnet build ./meuPrimeiroProjetoDotNet.csproj
-
-- dotnet run
+- Implementa uma classe aluno;
+- Cria um arquivo json como DB;
